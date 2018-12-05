@@ -8,9 +8,6 @@ import View from './../../containers/View/View';
 import SearchBar from './../../components/SearchBar/SearchBar';
 import ToggleView from './../../components/ToggleView/ToggleView';
 
-// styles
-// import styles from './ApiBrowser.module.css';
-
 class ApiBrowser extends Component {
   static contextType = ApiContext;
 
@@ -23,7 +20,7 @@ class ApiBrowser extends Component {
   }
 
   render () {
-    const { response, error } = this.context;
+    const { error } = this.context;
 
     return (
       <div>

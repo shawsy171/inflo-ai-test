@@ -1,6 +1,8 @@
 import React from 'react';
-import styles from './ResponseList.module.css';
 import classnames from 'classnames';
+
+// styles
+import styles from './ResponseList.module.css';
 
 const ResponseItem = ({ item, view }) => (
   <li className={classnames(styles.item, {[styles.gridItem]: view === 'list'})}>

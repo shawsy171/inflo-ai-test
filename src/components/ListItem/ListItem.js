@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-// import PropTypes from 'prop-types';
+
+// contexts
 import { ApiContext, TEST_URL } from './../../context/ApiContext/ApiContext';
+
+// styles
 import btnStyles from './../../styles/button.module.css';
 
 class ListItem extends Component {
@@ -19,10 +22,5 @@ class ListItem extends Component {
     )
   }
 }
-
-// ListItem.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   index: PropTypes.number.isRequired,
-// }
 
 export default ListItem;

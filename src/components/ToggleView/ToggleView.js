@@ -1,4 +1,6 @@
 import React from 'react';
+
+// styles
 import btnStyles from './../../styles/button.module.css';
 
 const ToggleView = ({ view, toggleView }) => {
