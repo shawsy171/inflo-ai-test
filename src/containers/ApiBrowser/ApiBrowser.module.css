@@ -1,0 +1,10 @@
+.apiBrowser {
+  display: flex;
+  color: grey;
+}
+
+.listContainer {
+  background-color: brown;
+  width: 50%;
+}
+

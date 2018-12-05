@@ -1,0 +1,10 @@
+.gridItem {
+  margin: 10px;
+  width: 30%
+}
+
+.grid {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}

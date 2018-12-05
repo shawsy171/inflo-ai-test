@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apiList {
+  width: 10%;
+}
+
+.responseList {
+  width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+  .apiList {
+    width: 100%;
+  }
+
+  .responseList {
+    width: 100%;
+  }
+}
