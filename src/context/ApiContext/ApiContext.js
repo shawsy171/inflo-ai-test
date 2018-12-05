@@ -14,7 +14,6 @@ class ApiProvider extends Component {
 
   getRequest = () => {
     const { api } = this.state;
-    console.log('api.trim() 2', api.trim());
     fetch(api.trim())
       .then(data => data.json())
       .then(response => {
@@ -22,17 +21,12 @@ class ApiProvider extends Component {
       })
       .catch(error => {
         console.error('error', error.message);
-        console.dir('error', error);
         this.setState(() => ({ error: error.message }));
       })
   }
 
   setApi = (apiValue) => {
-    console.log('apiValue', apiValue);
     this.setState(() => ({ api: apiValue }));
-
-    const { api } = this.state;
-    console.log('api.trim() 1', api.trim());
   }
 
   render () {
